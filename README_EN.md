@@ -1,39 +1,111 @@
-# 3.13" 376×960 TFT MIPI module (GC9503CV) — documentation & samples
+<p align="left"><img alt="OSPTEK" src="./images/logo.png" width="200" /></p>
 
-**简体中文：** [`README.md`](README.md)
+<h1 align="center">OSPTEK 3.13″ TFT 376×960 (GC9503CV · MIPI)</h1>
+
+<p align="center"><b>Bar-style TFT module · MIPI DSI · GC9503CV</b></p>
+
+<p align="center"><a href="./README.md">简体中文</a> | English</p>
+
+<p align="center">
+  <img alt="Size: 3.13 inch" src="https://img.shields.io/badge/Size-3.13%22-3498DB?style=flat-square" />
+  <img alt="Resolution: 376x960" src="https://img.shields.io/badge/Resolution-376%C3%97960-8E44AD?style=flat-square" />
+  <img alt="Interface: MIPI" src="https://img.shields.io/badge/Interface-MIPI-27AE60?style=flat-square" />
+  <img alt="Driver: GC9503CV" src="https://img.shields.io/badge/Driver-GC9503CV-E7352C?style=flat-square" />
+</p>
+
+<p align="center"><img alt="OSPTEK 3.13&quot; 376×960 TFT MIPI module (GC9503CV) product image" src="./images/product.png" width="640" /></p>
+
+## Contents
+
+- [Overview](#overview)
+- [Specifications](#specifications)
+- [Sample projects](#sample-projects)
+- [Repository layout](#repository-layout)
+- [Resources](#resources)
+- [Buy](#buy)
+- [Support](#support)
 
 ---
 
-> This repository provides **sample projects** for this module, together with datasheets, specifications, and interface / bring-up documentation for selection reference and integration.
+## Overview
 
-## Product overview
+OSPTEK **3.13″ 376×960 TFT** is a **MIPI** color display module driven by **GC9503CV**. The tall aspect ratio suits bar-style HMI, side status strips, and vertical info panels.
 
-| Item | Description |
-|:--|:--|
-| Module | 3.13-inch **TFT** panel, **376×960** resolution |
-| Interface | **MIPI** |
-| Driver IC | **GC9503CV** |
-| Spec ID | **`3.13-tft-376x960-mipi-gc9503cv`** is the common product designation in documentation |
+Spec ID (repository name): `3.13-tft-376x960-mipi-gc9503cv`
 
----
+The module datasheet filename references **YDP313B003**. Electrical and mechanical details follow the PDFs under [`docs/`](./docs/).
+
+## Specifications
+
+| Item | Spec |
+| ---- | ---- |
+| Size | 3.13 inch |
+| Type | TFT (color) |
+| Resolution | 376×960 |
+| Interface | MIPI DSI |
+| Driver IC | GC9503CV |
+| Init reference | Package notes ~60 Hz; MIPI CLK ~200 Mbps (see `docs/` init notes) |
+
+> Full outline, FPC definition, power, and timing follow the product datasheet / driver IC datasheet.
+
+## Sample projects
+
+| Description | Path |
+| ---- | ---- |
+| ESP32-P4 · GC9503CV MIPI DSI + LVGL | [`examples/esp32p4-idf5_gc9503cv-mipi-dsi/`](./examples/esp32p4-idf5_gc9503cv-mipi-dsi/) |
 
 ## Repository layout
 
-### Top-level
+```text
+3.13-tft-376x960-mipi-gc9503cv/
+├── README.md
+├── README_EN.md
+├── LICENSE
+├── images/          # README assets
+├── docs/            # datasheets, init files
+└── examples/        # sample projects
+```
 
-| Path | Contents |
-|:--|:--|
-| `docs/` | Datasheets, specifications, initialization documentation |
-| `examples/` | **Sample projects** |
+## Resources
 
-### `examples/` layout
+### Product files
 
-| Location | Description (internal package folder) |
-|:--|:--|
-| `examples/` root | **esp-idf代码** (MIPI DSI + LVGL) |
+| Resource | Link |
+| ---- | ---- |
+| Product datasheet (YDP313B003) | [`docs/YDP_313_B003_V1_42c8bc11c7.pdf`](./docs/YDP_313_B003_V1_42c8bc11c7.pdf) |
+| Driver IC datasheet (GC9503CV) | [`docs/GC_9503_CV_Data_Sheet_V1_0_1_bf6521995e.pdf`](./docs/GC_9503_CV_Data_Sheet_V1_0_1_bf6521995e.pdf) |
+| Init sequence (text) | [`docs/GC9503CV_BOE3.13IPS(QV032DEQ-N80)_20220106_AN_V1.txt`](./docs/GC9503CV_BOE3.13IPS(QV032DEQ-N80)_20220106_AN_V1.txt) |
+| Product CAD / outline | To be added under `docs/` |
+| Adapter schematic / project files | To be added under `docs/` |
 
-### Sample project paths
+### Samples
 
-| Description | Path |
-|:--|:--|
-| GC9503CV MIPI DSI + LVGL | `examples/esp32p4-idf5_gc9503cv-mipi-dsi/` |
+- [ESP32-P4 GC9503CV MIPI DSI + LVGL](./examples/esp32p4-idf5_gc9503cv-mipi-dsi/)
+
+## Buy
+
+<p align="center">
+  <a href="https://www.aliexpress.com/store/1105701619"><img alt="AliExpress store" src="https://img.shields.io/badge/AliExpress-Official_Store-FF6A00?style=for-the-badge" /></a>
+  &nbsp;&nbsp;
+  <a href="https://shop110742373.taobao.com/"><img alt="Taobao store" src="https://img.shields.io/badge/Taobao-Official_Store-FF6A00?style=for-the-badge" /></a>
+</p>
+
+**Overseas (AliExpress)**
+
+- Store: [OSPTEK Official Store](https://www.aliexpress.com/store/1105701619)
+
+**China (Taobao)**
+
+- Store: [鱼鹰光电工厂店](https://shop110742373.taobao.com/)
+
+> Product-page links for this SKU will be added here once confirmed.
+
+## Support
+
+- Technical support / product inquiry: <luyu@osptek.com>
+- QQ group (China): **985881096**
+- Website: <https://osptek.com/>
+
+---
+
+<p align="center"><sub>© 2026 OSPTEK · Materials in this repository are licensed under CC BY 4.0</sub></p>
