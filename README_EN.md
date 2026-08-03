@@ -75,8 +75,6 @@ The module datasheet filename references **YDP313B003**. Electrical and mechanic
 | Product datasheet (YDP313B003) | [`docs/YDP_313_B003_V1_42c8bc11c7.pdf`](./docs/YDP_313_B003_V1_42c8bc11c7.pdf) |
 | Driver IC datasheet (GC9503CV) | [`docs/GC_9503_CV_Data_Sheet_V1_0_1_bf6521995e.pdf`](./docs/GC_9503_CV_Data_Sheet_V1_0_1_bf6521995e.pdf) |
 | Init sequence (text) | [`docs/GC9503CV_BOE3.13IPS(QV032DEQ-N80)_20220106_AN_V1.txt`](./docs/GC9503CV_BOE3.13IPS(QV032DEQ-N80)_20220106_AN_V1.txt) |
-| Product CAD / outline | To be added under `docs/` |
-| Adapter schematic / project files | To be added under `docs/` |
 
 ### Samples
 
@@ -97,8 +95,6 @@ The module datasheet filename references **YDP313B003**. Electrical and mechanic
 **China (Taobao)**
 
 - Store: [鱼鹰光电工厂店](https://shop110742373.taobao.com/)
-
-> Product-page links for this SKU will be added here once confirmed.
 
 ## Support
 

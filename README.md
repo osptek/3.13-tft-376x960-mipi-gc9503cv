@@ -75,8 +75,6 @@ OSPTEK **3.13 寸 376×960 TFT** 是一款 **MIPI** 接口彩色显示模组，�
 | 产品规格书（YDP313B003） | [`docs/YDP_313_B003_V1_42c8bc11c7.pdf`](./docs/YDP_313_B003_V1_42c8bc11c7.pdf) |
 | 驱动 IC 数据手册（GC9503CV） | [`docs/GC_9503_CV_Data_Sheet_V1_0_1_bf6521995e.pdf`](./docs/GC_9503_CV_Data_Sheet_V1_0_1_bf6521995e.pdf) |
 | 初始化序列（文本） | [`docs/GC9503CV_BOE3.13IPS(QV032DEQ-N80)_20220106_AN_V1.txt`](./docs/GC9503CV_BOE3.13IPS(QV032DEQ-N80)_20220106_AN_V1.txt) |
-| 产品 CAD / 外形图 | 待补充至 `docs/` |
-| 转接板原理图 / 工程文件 | 待补充至 `docs/` |
 
 ### 示例工程
 
@@ -97,8 +95,6 @@ OSPTEK **3.13 寸 376×960 TFT** 是一款 **MIPI** 接口彩色显示模组，�
 **海外（AliExpress）**
 
 - 店铺：[OSPTEK Official Store](https://www.aliexpress.com/store/1105701619)
-
-> 本型号单品商品链接确认后会补到本节。
 
 ## 技术支持
 
